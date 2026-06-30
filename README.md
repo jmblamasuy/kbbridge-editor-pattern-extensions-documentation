@@ -25,11 +25,13 @@ each project's `ai/` folder.
 
 ## The projects
 
-- **`kbbridge-editor-genexus-sdk`** — the public SDK (`@kbbridge/genexus-sdk`, MIT) you code against.
-- **`kbbridge-editor-pattern-starter`** — a blank, ready-to-build template. Clone it and start.
-- **`kbbridge-editor-pattern-genexus-workwith`** — a complete worked example: a faithful port of the
+- **[kbbridge-editor-genexus-sdk](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk)** — the public SDK (`@kbbridge/genexus-sdk`, MIT) you code against.
+- **[kbbridge-editor-pattern-starter](https://github.com/jmblamasuy/kbbridge-editor-pattern-starter)** — a blank, ready-to-build template. Clone it and start.
+- **[kbbridge-editor-pattern-genexus-workwith](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith)** — a complete worked example: a faithful port of the
   GeneXus *Work With* pattern (and a real, installable extension).
-- **`kbbridge-editor-pattern-extensions-releases`** — the download platform/catalog where pattern
-  extensions for KB Editor are published.
+- **[kbbridge-editor-pattern-extensions-releases](https://github.com/jmblamasuy/kbbridge-editor-pattern-extensions-releases)** — the download platform/catalog where pattern
+  extensions for KB Editor are published (`.vsix` via Releases).
+- **[kbbridge-editor-pattern-extensions-documentation](https://github.com/jmblamasuy/kbbridge-editor-pattern-extensions-documentation)** — this documentation (concepts,
+  architecture, the three mechanisms, C#→TypeScript workflow).
 
 > For LLMs / AI assistants: see [`llms.txt`](llms.txt).
