@@ -6,8 +6,9 @@ an editable tree + properties panel, and exposes a **`PatternExtensionAPI`** so 
 **pattern providers** can add a first-class editing experience for their own patterns:
 
 - **Custom Types** — dynamic dropdown values for `custom(...)` properties.
-- **Captions** — custom labels/icons for tree nodes.
+- **Captions** — custom labels for tree nodes.
 - **Custom Actions** — context commands on nodes.
+- **Node icons** — bundled resource icons for tree nodes.
 
 This documentation set is the conceptual introduction. The hands-on, build-it guides live in
 each project's `ai/` folder.
