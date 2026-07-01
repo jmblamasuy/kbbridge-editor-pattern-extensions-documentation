@@ -19,7 +19,7 @@ each project's `ai/` folder.
 | Understand the idea & terms | [01-introduction.md](01-introduction.md) |
 | Learn how GeneXus patterns are defined | [02-genexus-pattern-concepts.md](02-genexus-pattern-concepts.md) |
 | Understand the extensibility architecture | [03-extensibility-architecture.md](03-extensibility-architecture.md) |
-| See the three mechanisms | [04-extensibility-mechanisms.md](04-extensibility-mechanisms.md) |
+| See the extensibility mechanisms | [04-extensibility-mechanisms.md](04-extensibility-mechanisms.md) |
 | Port an existing .NET pattern | [05-csharp-to-typescript-workflow.md](05-csharp-to-typescript-workflow.md) |
 | Build your first extension | [06-getting-started.md](06-getting-started.md) |
 
@@ -32,6 +32,6 @@ each project's `ai/` folder.
 - **[kbbridge-editor-pattern-extensions-releases](https://github.com/jmblamasuy/kbbridge-editor-pattern-extensions-releases)** — the download platform/catalog where pattern
   extensions for KB Editor are published (`.vsix` via Releases).
 - **[kbbridge-editor-pattern-extensions-documentation](https://github.com/jmblamasuy/kbbridge-editor-pattern-extensions-documentation)** — this documentation (concepts,
-  architecture, the three mechanisms, C#→TypeScript workflow).
+  architecture, the extensibility mechanisms, C#→TypeScript workflow).
 
 > For LLMs / AI assistants: see [`llms.txt`](llms.txt).

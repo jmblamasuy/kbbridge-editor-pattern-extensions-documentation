@@ -49,4 +49,4 @@ optimization, not a requirement.
 
 Deeper, build-it version: each project's `ai/ARCHITECTURE.md` and `ai/SDK-REFERENCE.md`.
 
-Next: [The three mechanisms](04-extensibility-mechanisms.md).
+Next: [The extensibility mechanisms](04-extensibility-mechanisms.md).

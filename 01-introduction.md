@@ -16,11 +16,12 @@ pattern's provider — registers **providers** that supply that dynamic behavior
 then calls those providers while the user edits, giving pattern instances the same
 first-class experience they have in the GeneXus IDE.
 
-Three mechanisms cover the editor behavior of essentially every pattern:
+A few mechanisms cover the editor behavior of essentially every pattern:
 
 1. **Custom Types** — compute the valid values for a `custom(<Id>)` property on demand.
-2. **Captions** — override a node's label/icon based on its data.
+2. **Captions** — override a node's label based on its data.
 3. **Custom Actions** — add context commands to nodes.
+4. **Node icons** — supply a node's icon as a bundled resource.
 
 If the provider extension is not installed, KB Editor still works (graceful degradation):
 dropdowns become plain text, captions fall back to defaults, and there are no extra commands.

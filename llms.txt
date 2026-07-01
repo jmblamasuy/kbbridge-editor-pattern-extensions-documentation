@@ -13,8 +13,8 @@
   *Settings.xml, attribute types, and where custom(...) types come from.
 - [Extensibility architecture](03-extensibility-architecture.md): layers, the
   activation/registration lifecycle, and graceful degradation.
-- [The three mechanisms](04-extensibility-mechanisms.md): Custom Types, Captions, Custom
-  Actions (plus optional Variables).
+- [The extensibility mechanisms](04-extensibility-mechanisms.md): Custom Types, Captions,
+  Custom Actions, Node icons (plus optional Variables).
 - [C# → TypeScript workflow](05-csharp-to-typescript-workflow.md): how to transcribe a
   GeneXus .NET pattern to TypeScript, with the .NET→SDK mapping.
 - [Getting started](06-getting-started.md): install KB Editor, clone the starter, build,
