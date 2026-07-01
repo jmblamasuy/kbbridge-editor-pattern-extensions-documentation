@@ -17,10 +17,15 @@ on KB Editor internals. KB Editor hands you the API object at runtime.
 2. You obtain the API and register providers per pattern type:
    ```ts
    const kb = vscode.extensions.getExtension('kbbridge.genexus-visual-editor');
-   const api = kb.isActive ? kb.exports : await kb.activate();
+   const api = await kb.activate();   // resolves KB Editor's exported API
    api.patternAPI.registerCustomTypeSupport('WorkWith', customTypes);
    api.patternAPI.registerEditorHelper('WorkWith', editorHelper);
    ```
+   > **Tolerate activation ordering.** `extensionDependencies` *should* make KB Editor activate
+   > first, but on some setups it doesn't — your extension may run before KB Editor has
+   > populated its exports, so `api.patternAPI` is momentarily missing. Don't give up on the
+   > first try: retry acquiring it for a few seconds (the starter and Work With `activate()`
+   > ship an `acquirePatternAPI` helper that does exactly this).
 3. You dispose (unregister) on deactivate.
 
 One extension can register **several** pattern types.
