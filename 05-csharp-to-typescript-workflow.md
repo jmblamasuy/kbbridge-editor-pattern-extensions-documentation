@@ -1,7 +1,8 @@
 # C# → TypeScript workflow
 
 If your pattern already has a GeneXus **.NET** implementation, the fastest faithful path is
-to **transcribe** the editor classes to TypeScript against `@kbbridge/genexus-sdk`, which
+to **transcribe** the editor classes to TypeScript against
+[`@kbbridge/genexus-sdk`](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk), which
 mirrors the GeneXus .NET pattern SDK.
 
 ## Method
@@ -33,8 +34,10 @@ mirrors the GeneXus .NET pattern SDK.
 
 ## Worked example
 
-The `kbbridge-editor-pattern-genexus-workwith` project is a complete, faithful transcription of the GeneXus
-*Work With* editor behavior. Read its `ai/EXAMPLES.md` for a file-by-file walkthrough.
+The [`kbbridge-editor-pattern-genexus-workwith`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith)
+project is a complete, faithful transcription of the GeneXus *Work With* editor behavior. Read its
+[`ai/EXAMPLES.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXAMPLES.md)
+for a file-by-file walkthrough.
 
 ## Rules
 
