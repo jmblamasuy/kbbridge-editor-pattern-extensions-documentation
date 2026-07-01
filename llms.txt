@@ -2,8 +2,9 @@
 
 > KB Editor (`kbbridge.genexus-visual-editor`) is the GeneXus visual editor inside VS Code /
 > VSCodium. It exposes a PatternExtensionAPI that lets pattern providers add custom types
-> (dynamic dropdowns), captions (node labels/icons) and custom actions (context commands) to
-> the editing of GeneXus pattern instances (.gxPattern). This file indexes the documentation
+> (dynamic dropdowns), captions (node labels), custom actions (context commands) and node
+> icons (bundled resource icons) to the editing of GeneXus pattern instances (.gxPattern).
+> This file indexes the documentation
 > for humans and LLMs.
 
 ## Concepts
@@ -22,14 +23,14 @@
 
 ## Projects (source of truth & deeper docs)
 
-- genexus-pattern-sdk: the SDK (@kbbridge/genexus-sdk, MIT) you code against.
-- kb-editor-pattern-starter: blank template; see its ai/ folder for the full build guide.
-- genexus-workwith-kb-editor: complete worked example (GeneXus Work With port); see its ai/
-  folder including SDK-REFERENCE.md and EXAMPLES.md.
-- kb-editor-pattern-extensions: download platform/catalog of pattern extensions.
+- [kbbridge-editor-genexus-sdk](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk): the SDK (`@kbbridge/genexus-sdk`, MIT) you code against.
+- [kbbridge-editor-pattern-starter](https://github.com/jmblamasuy/kbbridge-editor-pattern-starter): blank template; see its ai/ folder for the full build guide.
+- [kbbridge-editor-pattern-genexus-workwith](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith): complete worked example (GeneXus Work With port); see its ai/
+  folder including [SDK-REFERENCE.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/SDK-REFERENCE.md) and [EXAMPLES.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXAMPLES.md).
+- [kbbridge-editor-pattern-extensions-releases](https://github.com/jmblamasuy/kbbridge-editor-pattern-extensions-releases): download platform/catalog of pattern extensions.
 
 ## Key reference
 
-- SDK surface (exact interfaces): genexus-workwith-kb-editor/ai/SDK-REFERENCE.md
-- Mechanism guides: ai/EXTENSIBILITY-CUSTOM-TYPES.md, ai/EXTENSIBILITY-CAPTIONS.md,
-  ai/EXTENSIBILITY-CUSTOM-ACTIONS.md
+- SDK surface (exact interfaces): [kbbridge-editor-pattern-genexus-workwith/ai/SDK-REFERENCE.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/SDK-REFERENCE.md)
+- Mechanism guides: [ai/EXTENSIBILITY-CUSTOM-TYPES.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CUSTOM-TYPES.md), [ai/EXTENSIBILITY-CAPTIONS.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CAPTIONS.md),
+  [ai/EXTENSIBILITY-CUSTOM-ACTIONS.md](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CUSTOM-ACTIONS.md)

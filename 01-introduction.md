@@ -41,6 +41,6 @@ dropdowns become plain text, captions fall back to defaults, and there are no ex
 | **Custom type** | A property type `custom(<Id>)` whose values are computed by a provider. |
 | **Caption** | The label shown for a node in the editor tree. |
 | **Command / action** | A context action attached to a node. |
-| **SDK** | `@kbbridge/genexus-sdk` — the TypeScript contract that mirrors the GeneXus .NET pattern SDK. |
+| **SDK** | [`@kbbridge/genexus-sdk`](https://github.com/jmblamasuy/kbbridge-editor-genexus-sdk) — the TypeScript contract that mirrors the GeneXus .NET pattern SDK. |
 
 Next: [GeneXus pattern concepts](02-genexus-pattern-concepts.md).

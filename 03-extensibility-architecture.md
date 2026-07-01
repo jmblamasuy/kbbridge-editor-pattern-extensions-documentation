@@ -47,6 +47,6 @@ For a single pattern, **one package** is enough. If you ship **many** patterns a
 share code, you can split into a shared helper library + a patterns extension. That is an
 optimization, not a requirement.
 
-Deeper, build-it version: each project's `ai/ARCHITECTURE.md` and `ai/SDK-REFERENCE.md`.
+Deeper, build-it version: each project's [`ai/ARCHITECTURE.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/ARCHITECTURE.md) and [`ai/SDK-REFERENCE.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/SDK-REFERENCE.md).
 
 Next: [The extensibility mechanisms](04-extensibility-mechanisms.md).

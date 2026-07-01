@@ -18,7 +18,7 @@ class WorkWithCustomTypeSupport implements IPatternCustomTypeSupport {
 }
 ```
 
-→ Deep dive: `ai/EXTENSIBILITY-CUSTOM-TYPES.md`.
+→ Deep dive: [`ai/EXTENSIBILITY-CUSTOM-TYPES.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CUSTOM-TYPES.md).
 
 ## 2. Captions — node labels
 
@@ -38,7 +38,7 @@ customShowElement(element) {
 }
 ```
 
-→ Deep dive: `ai/EXTENSIBILITY-CAPTIONS.md`.
+→ Deep dive: [`ai/EXTENSIBILITY-CAPTIONS.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CAPTIONS.md).
 
 ## 3. Custom Actions — context commands
 
@@ -56,7 +56,7 @@ getCommands(element) {
 }
 ```
 
-→ Deep dive: `ai/EXTENSIBILITY-CUSTOM-ACTIONS.md`.
+→ Deep dive: [`ai/EXTENSIBILITY-CUSTOM-ACTIONS.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-CUSTOM-ACTIONS.md).
 
 ## 4. Node icons — bundled resource icons
 
@@ -88,6 +88,6 @@ getNodeIcon(element, iconName) {
 ## Optional: Variables
 
 If your pattern exposes context variables in embedded code, implement
-`IPatternVariableProvider` to feed KB Editor's autocomplete. → `ai/EXTENSIBILITY-VARIABLES.md`.
+`IPatternVariableProvider` to feed KB Editor's autocomplete. → [`ai/EXTENSIBILITY-VARIABLES.md`](https://github.com/jmblamasuy/kbbridge-editor-pattern-genexus-workwith/blob/main/ai/EXTENSIBILITY-VARIABLES.md).
 
 Next: [C# → TypeScript workflow](05-csharp-to-typescript-workflow.md).
